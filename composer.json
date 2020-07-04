@@ -10,5 +10,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "douggonsouza/driver": "dev-master",
+        "douggonsouza/data": "dev-master",
+        "douggonsouza/permission": "dev-master"
+    }
 }

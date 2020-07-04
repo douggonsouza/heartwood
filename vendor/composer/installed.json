@@ -1,0 +1,92 @@
+[
+    {
+        "name": "douggonsouza/data",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/douggonsouza/data.git",
+            "reference": "f8039a3aa4d5a86c289082ed9966222da1c52e70"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/douggonsouza/data/zipball/f8039a3aa4d5a86c289082ed9966222da1c52e70",
+            "reference": "f8039a3aa4d5a86c289082ed9966222da1c52e70",
+            "shasum": ""
+        },
+        "time": "2020-07-04T19:33:59+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Douglas Gonçalves de Souza",
+                "email": "douggonsouza@gmail.com.br"
+            }
+        ],
+        "description": "Módulo de modelo de dados"
+    },
+    {
+        "name": "douggonsouza/driver",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/douggonsouza/driver.git",
+            "reference": "2e398a56d62d21014bbca98edd5d2cc863dc0089"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/douggonsouza/driver/zipball/2e398a56d62d21014bbca98edd5d2cc863dc0089",
+            "reference": "2e398a56d62d21014bbca98edd5d2cc863dc0089",
+            "shasum": ""
+        },
+        "time": "2020-07-04T19:33:19+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Douglas Gonçalves de Souza",
+                "email": "douggonsouza@gmail.com"
+            }
+        ],
+        "description": "Módulo de roteamento dos controladores"
+    },
+    {
+        "name": "douggonsouza/permission",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/douggonsouza/permission.git",
+            "reference": "8b98aa75909421c76d1b35af6355f355f8ba90eb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/douggonsouza/permission/zipball/8b98aa75909421c76d1b35af6355f355f8ba90eb",
+            "reference": "8b98aa75909421c76d1b35af6355f355f8ba90eb",
+            "shasum": ""
+        },
+        "time": "2020-07-04T19:43:53+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Douglas Gonçalves de Souza",
+                "email": "douggonsouza@gmail.com"
+            }
+        ],
+        "description": "Módulo de permissionamento do usuário"
+    }
+]
