@@ -13,7 +13,8 @@
     "require": {
         "douggonsouza/driver": "^v1.0.0",
         "douggonsouza/data": "^v1.0.0",
-        "douggonsouza/permission": "^v1.0.0"
+        "douggonsouza/permission": "^v1.0.0",
+        "vlucas/phpdotenv": "^v5.0.0"
     },
     "autoload": {
         "psr-4": {

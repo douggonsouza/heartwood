@@ -26,10 +26,20 @@
 	ini_set('display_startup_errors', 1);
 	ini_set('display_errors', 1);
 
+    // Esse arquivo e pasta é gerado depois de instalação da biblioteca descrita acima
+    include_once __DIR__ . '/vendor/autoload.php';
+
+    $dotenv = new Dotenv\Dotenv(__DIR__);
+    $dotenv->load();
+
+    var_dump(getenv('PROJECT_NAME'));
+    var_dump($_ENV['PROJECT_NAME']);
+
 	// autoloader
-	include "vendor/autoload.php";
+	// include "vendor/autoload.php";
     // include defines
-    include "root/defines.php";
+    // include "root/defines.php";
+
     // inicia app
     include VA."/src/app/load.php";
 ?>
