@@ -1,0 +1,14 @@
+{
+    "name": "douggonsouza/heartwood",
+    "description": "Projeto de framework PHP",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Douglas Gonçalves de Souza",
+            "email": "douggonsouza@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
