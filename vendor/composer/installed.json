@@ -1,22 +1,27 @@
 [
     {
         "name": "douggonsouza/data",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
+        "version": "v1.0.1",
+        "version_normalized": "1.0.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/douggonsouza/data.git",
-            "reference": "f8039a3aa4d5a86c289082ed9966222da1c52e70"
+            "reference": "3f13d1bbcf2d71d5b30d238ac6e0de384e9b4cc3"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/douggonsouza/data/zipball/f8039a3aa4d5a86c289082ed9966222da1c52e70",
-            "reference": "f8039a3aa4d5a86c289082ed9966222da1c52e70",
+            "url": "https://api.github.com/repos/douggonsouza/data/zipball/3f13d1bbcf2d71d5b30d238ac6e0de384e9b4cc3",
+            "reference": "3f13d1bbcf2d71d5b30d238ac6e0de384e9b4cc3",
             "shasum": ""
         },
-        "time": "2020-07-04T19:33:59+00:00",
+        "time": "2020-07-04T20:11:53+00:00",
         "type": "library",
         "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "src\\": "data/"
+            }
+        },
         "notification-url": "https://packagist.org/downloads/",
         "license": [
             "MIT"
@@ -31,22 +36,27 @@
     },
     {
         "name": "douggonsouza/driver",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
+        "version": "v1.0.1",
+        "version_normalized": "1.0.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/douggonsouza/driver.git",
-            "reference": "2e398a56d62d21014bbca98edd5d2cc863dc0089"
+            "reference": "c4f9927ddbacd101e8f3fd00eb0b20106188120a"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/douggonsouza/driver/zipball/2e398a56d62d21014bbca98edd5d2cc863dc0089",
-            "reference": "2e398a56d62d21014bbca98edd5d2cc863dc0089",
+            "url": "https://api.github.com/repos/douggonsouza/driver/zipball/c4f9927ddbacd101e8f3fd00eb0b20106188120a",
+            "reference": "c4f9927ddbacd101e8f3fd00eb0b20106188120a",
             "shasum": ""
         },
-        "time": "2020-07-04T19:33:19+00:00",
+        "time": "2020-07-04T20:09:34+00:00",
         "type": "library",
         "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "src\\": "driver/"
+            }
+        },
         "notification-url": "https://packagist.org/downloads/",
         "license": [
             "MIT"
@@ -61,22 +71,27 @@
     },
     {
         "name": "douggonsouza/permission",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
+        "version": "v1.0.1",
+        "version_normalized": "1.0.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/douggonsouza/permission.git",
-            "reference": "8b98aa75909421c76d1b35af6355f355f8ba90eb"
+            "reference": "c4ed75debb9ed54e02a4652059a94f2c7f4748ea"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/douggonsouza/permission/zipball/8b98aa75909421c76d1b35af6355f355f8ba90eb",
-            "reference": "8b98aa75909421c76d1b35af6355f355f8ba90eb",
+            "url": "https://api.github.com/repos/douggonsouza/permission/zipball/c4ed75debb9ed54e02a4652059a94f2c7f4748ea",
+            "reference": "c4ed75debb9ed54e02a4652059a94f2c7f4748ea",
             "shasum": ""
         },
-        "time": "2020-07-04T19:43:53+00:00",
+        "time": "2020-07-04T20:13:25+00:00",
         "type": "library",
         "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "src\\": "permission/"
+            }
+        },
         "notification-url": "https://packagist.org/downloads/",
         "license": [
             "MIT"

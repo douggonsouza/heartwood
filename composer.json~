@@ -14,10 +14,5 @@
         "douggonsouza/driver": "^v1.0.0",
         "douggonsouza/data": "^v1.0.0",
         "douggonsouza/permission": "^v1.0.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "src\\": "heartwood/"
-        }
     }
 }
