@@ -1,1 +1,4 @@
 /dev/
+/.vscode/
+
+*.code-workspace
