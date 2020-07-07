@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "92fa2bc27a95fc15e6cd098e3dfcf2b9",
+    "content-hash": "299f68c1fbf964c9d977b0b5584b411e",
     "packages": [
         {
             "name": "douggonsouza/data",
@@ -545,7 +545,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "vlucas/phpdotenv": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

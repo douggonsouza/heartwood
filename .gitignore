@@ -1,4 +1,7 @@
+# folders
 /dev/
 /.vscode/
 
+#files
 *.code-workspace
+/.env
