@@ -6,7 +6,9 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'src\\' => array($baseDir . '/heartwood', $vendorDir . '/douggonsouza/data/data', $vendorDir . '/douggonsouza/driver/driver', $vendorDir . '/douggonsouza/permission/permission'),
+    'src\\' => array($vendorDir . '/douggonsouza/data/data', $vendorDir . '/douggonsouza/permission/permission'),
+    'heartwood\\' => array($baseDir . '/src'),
+    'driver\\' => array($vendorDir . '/douggonsouza/driver/src'),
     'Symfony\\Polyfill\\Php80\\' => array($vendorDir . '/symfony/polyfill-php80'),
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
     'Symfony\\Polyfill\\Ctype\\' => array($vendorDir . '/symfony/polyfill-ctype'),

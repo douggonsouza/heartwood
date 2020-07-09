@@ -26,12 +26,15 @@
 	ini_set('display_startup_errors', 1);
 	ini_set('display_errors', 1);
 
-    // Esse arquivo e pasta é gerado depois de instalação da biblioteca descrita acima
+    // Carrega o autload do Composer
     include_once __DIR__ . '/vendor/autoload.php';
-
-	// Iniciando variaveis ENV
+	// Inicia DotEnv
 	$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 	$dotenv->load();
+	// Carrega as definições do sistema
+	include_once __DIR__ . '/src/init.php';
+	// Carrega página de rotas
+	include_once __DIR__ . '/src/routing.php';
 
     // var_dump(getenv('PROJECT_NAME'));
     // var_dump($_ENV['PROJECT_NAME']);

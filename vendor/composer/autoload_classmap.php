@@ -58,4 +58,11 @@ return array(
     'Symfony\\Polyfill\\Mbstring\\Mbstring' => $vendorDir . '/symfony/polyfill-mbstring/Mbstring.php',
     'Symfony\\Polyfill\\Php80\\Php80' => $vendorDir . '/symfony/polyfill-php80/Php80.php',
     'ValueError' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
+    'driver\\control\\action' => $vendorDir . '/douggonsouza/driver/src/control/action.php',
+    'driver\\helper\\html' => $vendorDir . '/douggonsouza/driver/src/helper/html.php',
+    'driver\\router\\autenticate' => $vendorDir . '/douggonsouza/driver/src/router/autenticate.php',
+    'driver\\router\\router' => $vendorDir . '/douggonsouza/driver/src/router/router.php',
+    'driver\\view\\display' => $vendorDir . '/douggonsouza/driver/src/view/display.php',
+    'driver\\view\\mimes' => $vendorDir . '/douggonsouza/driver/src/view/mimes.php',
+    'driver\\view\\view' => $vendorDir . '/douggonsouza/driver/src/view/view.php',
 );

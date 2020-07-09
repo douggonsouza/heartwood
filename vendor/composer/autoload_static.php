@@ -17,6 +17,14 @@ class ComposerStaticInit210a3b1822df82af31a5c768bc2b9e10
         array (
             'src\\' => 4,
         ),
+        'h' => 
+        array (
+            'heartwood\\' => 10,
+        ),
+        'd' => 
+        array (
+            'driver\\' => 7,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Php80\\' => 23,
@@ -40,10 +48,16 @@ class ComposerStaticInit210a3b1822df82af31a5c768bc2b9e10
     public static $prefixDirsPsr4 = array (
         'src\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/heartwood',
-            1 => __DIR__ . '/..' . '/douggonsouza/data/data',
-            2 => __DIR__ . '/..' . '/douggonsouza/driver/driver',
-            3 => __DIR__ . '/..' . '/douggonsouza/permission/permission',
+            0 => __DIR__ . '/..' . '/douggonsouza/data/data',
+            1 => __DIR__ . '/..' . '/douggonsouza/permission/permission',
+        ),
+        'heartwood\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
+        'driver\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/douggonsouza/driver/src',
         ),
         'Symfony\\Polyfill\\Php80\\' => 
         array (
@@ -124,6 +138,13 @@ class ComposerStaticInit210a3b1822df82af31a5c768bc2b9e10
         'Symfony\\Polyfill\\Mbstring\\Mbstring' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/Mbstring.php',
         'Symfony\\Polyfill\\Php80\\Php80' => __DIR__ . '/..' . '/symfony/polyfill-php80/Php80.php',
         'ValueError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
+        'driver\\control\\action' => __DIR__ . '/..' . '/douggonsouza/driver/src/control/action.php',
+        'driver\\helper\\html' => __DIR__ . '/..' . '/douggonsouza/driver/src/helper/html.php',
+        'driver\\router\\autenticate' => __DIR__ . '/..' . '/douggonsouza/driver/src/router/autenticate.php',
+        'driver\\router\\router' => __DIR__ . '/..' . '/douggonsouza/driver/src/router/router.php',
+        'driver\\view\\display' => __DIR__ . '/..' . '/douggonsouza/driver/src/view/display.php',
+        'driver\\view\\mimes' => __DIR__ . '/..' . '/douggonsouza/driver/src/view/mimes.php',
+        'driver\\view\\view' => __DIR__ . '/..' . '/douggonsouza/driver/src/view/view.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
