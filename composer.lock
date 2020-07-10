@@ -41,16 +41,16 @@
         },
         {
             "name": "douggonsouza/driver",
-            "version": "v1.0.3",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/driver.git",
-                "reference": "77796731a0cd037d4d9edd10701f8d3aa4a2492b"
+                "reference": "6d214860412756cdb9f7ee650fc3b4b90d2dd178"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/driver/zipball/77796731a0cd037d4d9edd10701f8d3aa4a2492b",
-                "reference": "77796731a0cd037d4d9edd10701f8d3aa4a2492b",
+                "url": "https://api.github.com/repos/douggonsouza/driver/zipball/6d214860412756cdb9f7ee650fc3b4b90d2dd178",
+                "reference": "6d214860412756cdb9f7ee650fc3b4b90d2dd178",
                 "shasum": ""
             },
             "type": "library",
@@ -70,7 +70,7 @@
                 }
             ],
             "description": "Módulo de roteamento dos controladores",
-            "time": "2020-07-09T17:57:27+00:00"
+            "time": "2020-07-10T12:57:22+00:00"
         },
         {
             "name": "douggonsouza/permission",
@@ -391,12 +391,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
-                "reference": "4a5b6bba3259902e386eb80dd1956181ee90b5b2"
+                "reference": "c7bdeabb8ec1964cb74892c8281d79fe31592e74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/4a5b6bba3259902e386eb80dd1956181ee90b5b2",
-                "reference": "4a5b6bba3259902e386eb80dd1956181ee90b5b2",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/c7bdeabb8ec1964cb74892c8281d79fe31592e74",
+                "reference": "c7bdeabb8ec1964cb74892c8281d79fe31592e74",
                 "shasum": ""
             },
             "require": {
@@ -463,7 +463,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-06-06T08:46:27+00:00"
+            "time": "2020-07-03T13:31:43+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
