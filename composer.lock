@@ -41,16 +41,16 @@
         },
         {
             "name": "douggonsouza/driver",
-            "version": "v1.0.5",
+            "version": "v1.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/driver.git",
-                "reference": "734979afef8de88e7c03b84e4990e1d30d393158"
+                "reference": "388a089b9b1ce265678c5743d967e297d2633b23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/driver/zipball/734979afef8de88e7c03b84e4990e1d30d393158",
-                "reference": "734979afef8de88e7c03b84e4990e1d30d393158",
+                "url": "https://api.github.com/repos/douggonsouza/driver/zipball/388a089b9b1ce265678c5743d967e297d2633b23",
+                "reference": "388a089b9b1ce265678c5743d967e297d2633b23",
                 "shasum": ""
             },
             "type": "library",
@@ -70,7 +70,7 @@
                 }
             ],
             "description": "Módulo de roteamento dos controladores",
-            "time": "2020-07-10T18:16:55+00:00"
+            "time": "2020-07-11T13:46:30+00:00"
         },
         {
             "name": "douggonsouza/permission",
