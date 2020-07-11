@@ -35,15 +35,4 @@
 	include_once __DIR__ . '/src/init.php';
 	// Carrega página de rotas
 	include_once __DIR__ . '/src/routing.php';
-
-    // var_dump(getenv('PROJECT_NAME'));
-    // var_dump($_ENV['PROJECT_NAME']);
-
-	// autoloader
-	// include "vendor/autoload.php";
-    // include defines
-    // include "root/defines.php";
-
-    // inicia app
-    include VA."/src/app/load.php";
 ?>

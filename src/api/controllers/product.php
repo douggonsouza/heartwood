@@ -1,10 +1,10 @@
 <?php
 
-    namespace heartwood\admin\controllers;
+    namespace heartwood\api\controllers;
 
     use driver\control\action;
 
-    class productsUpdate extends action
+    class product extends action
     {
         const _LOCAL = __DIR__;
 
@@ -16,8 +16,8 @@
          */
         public function main(array $info)
         {
-            $params = $info;
-            return $this->view($params);
+            $params = $info['url'];
+            return $this->json($params);
         }
 
         /**

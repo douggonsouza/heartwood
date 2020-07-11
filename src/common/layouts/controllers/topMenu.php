@@ -1,10 +1,10 @@
 <?php
 
-    namespace heartwood\admin\controllers;
+    namespace heartwood\common\layouts\controllers;
 
     use driver\control\action;
 
-    class productsUpdate extends action
+    class topMenu extends action
     {
         const _LOCAL = __DIR__;
 
@@ -16,7 +16,8 @@
          */
         public function main(array $info)
         {
-            $params = $info;
+            self::setLayout(self::getHeartwoodLayouts().'/responses/topMenu.phtml');
+            $params = $info['url'];
             return $this->view($params);
         }
 
@@ -40,5 +41,4 @@
 
         }
     }
-
 ?>
