@@ -36,20 +36,20 @@
     },
     {
         "name": "douggonsouza/driver",
-        "version": "v1.0.8",
-        "version_normalized": "1.0.8.0",
+        "version": "v1.0.9",
+        "version_normalized": "1.0.9.0",
         "source": {
             "type": "git",
             "url": "https://github.com/douggonsouza/driver.git",
-            "reference": "388a089b9b1ce265678c5743d967e297d2633b23"
+            "reference": "dfe8caf0f13113764afd8a48dd419775c900f4ba"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/douggonsouza/driver/zipball/388a089b9b1ce265678c5743d967e297d2633b23",
-            "reference": "388a089b9b1ce265678c5743d967e297d2633b23",
+            "url": "https://api.github.com/repos/douggonsouza/driver/zipball/dfe8caf0f13113764afd8a48dd419775c900f4ba",
+            "reference": "dfe8caf0f13113764afd8a48dd419775c900f4ba",
             "shasum": ""
         },
-        "time": "2020-07-11T13:46:30+00:00",
+        "time": "2020-07-11T17:39:09+00:00",
         "type": "library",
         "installation-source": "source",
         "autoload": {
