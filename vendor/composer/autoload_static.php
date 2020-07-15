@@ -24,6 +24,7 @@ class ComposerStaticInit210a3b1822df82af31a5c768bc2b9e10
         'd' => 
         array (
             'driver\\' => 7,
+            'data\\' => 5,
         ),
         'S' => 
         array (
@@ -48,8 +49,7 @@ class ComposerStaticInit210a3b1822df82af31a5c768bc2b9e10
     public static $prefixDirsPsr4 = array (
         'src\\' => 
         array (
-            0 => __DIR__ . '/..' . '/douggonsouza/data/data',
-            1 => __DIR__ . '/..' . '/douggonsouza/permission/permission',
+            0 => __DIR__ . '/..' . '/douggonsouza/permission/permission',
         ),
         'heartwood\\' => 
         array (
@@ -58,6 +58,10 @@ class ComposerStaticInit210a3b1822df82af31a5c768bc2b9e10
         'driver\\' => 
         array (
             0 => __DIR__ . '/..' . '/douggonsouza/driver/src',
+        ),
+        'data\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/douggonsouza/data/src',
         ),
         'Symfony\\Polyfill\\Php80\\' => 
         array (

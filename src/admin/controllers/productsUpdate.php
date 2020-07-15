@@ -3,6 +3,8 @@
     namespace heartwood\admin\controllers;
 
     use driver\control\action;
+    use data\resource\resource;
+    use heartwood\common\models\users;
 
     class productsUpdate extends action
     {
@@ -16,7 +18,13 @@
          */
         public function main(array $info)
         {
-            $params = $info;
+            $users = new users();
+            $dicionary = $users->dicionary();
+            if(empty($dicionary)){
+                $error = $users->getError();
+            }
+
+            $params = $info['url'];
             return $this->view($params);
         }
 
