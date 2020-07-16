@@ -18,12 +18,6 @@
          */
         public function main(array $info)
         {
-            $users = new users();
-            $dicionary = $users->dicionary();
-            if(empty($dicionary)){
-                $error = $users->getError();
-            }
-
             $params = $info['url'];
             return $this->view($params);
         }

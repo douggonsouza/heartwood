@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "douggonsouza/data",
-            "version": "v1.0.6",
+            "version": "v1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/data.git",
-                "reference": "165f349f57524bc74c102ced3226a51e0b7a6d71"
+                "reference": "ea50e15400fac64bef170cfa14f09294fee5fefc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/data/zipball/165f349f57524bc74c102ced3226a51e0b7a6d71",
-                "reference": "165f349f57524bc74c102ced3226a51e0b7a6d71",
+                "url": "https://api.github.com/repos/douggonsouza/data/zipball/ea50e15400fac64bef170cfa14f09294fee5fefc",
+                "reference": "ea50e15400fac64bef170cfa14f09294fee5fefc",
                 "shasum": ""
             },
             "type": "library",
@@ -37,7 +37,7 @@
                 }
             ],
             "description": "Módulo de modelo de dados",
-            "time": "2020-07-15T12:54:07+00:00"
+            "time": "2020-07-16T18:29:13+00:00"
         },
         {
             "name": "douggonsouza/driver",
