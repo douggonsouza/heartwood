@@ -13,9 +13,9 @@ class ComposerStaticInit210a3b1822df82af31a5c768bc2b9e10
     );
 
     public static $prefixLengthsPsr4 = array (
-        's' => 
+        'p' => 
         array (
-            'src\\' => 4,
+            'permission\\' => 11,
         ),
         'h' => 
         array (
@@ -47,9 +47,9 @@ class ComposerStaticInit210a3b1822df82af31a5c768bc2b9e10
     );
 
     public static $prefixDirsPsr4 = array (
-        'src\\' => 
+        'permission\\' => 
         array (
-            0 => __DIR__ . '/..' . '/douggonsouza/permission/permission',
+            0 => __DIR__ . '/..' . '/douggonsouza/permission/src',
         ),
         'heartwood\\' => 
         array (

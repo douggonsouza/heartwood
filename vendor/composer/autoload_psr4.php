@@ -6,7 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'src\\' => array($vendorDir . '/douggonsouza/permission/permission'),
+    'permission\\' => array($vendorDir . '/douggonsouza/permission/src'),
     'heartwood\\' => array($baseDir . '/src'),
     'driver\\' => array($vendorDir . '/douggonsouza/driver/src'),
     'data\\' => array($vendorDir . '/douggonsouza/data/src'),

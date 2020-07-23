@@ -4,7 +4,7 @@
 
     use driver\control\action;
 
-    class topMenu extends action
+    class sidebar extends action
     {
         const _LOCAL = __DIR__;
 
@@ -16,9 +16,8 @@
          */
         public function main(array $info)
         {
-            self::setLayout(self::getHeartwoodLayouts().'/responses/topMenu.phtml');
-            $params = $info['url'];
-            return $this->view($params);
+            self::setLayout(self::getHeartwoodLayouts().'/responses/sidebar.phtml');
+            return $this->view();
         }
 
         /**
@@ -41,4 +40,5 @@
 
         }
     }
+
 ?>
