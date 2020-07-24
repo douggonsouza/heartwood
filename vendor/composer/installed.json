@@ -71,20 +71,20 @@
     },
     {
         "name": "douggonsouza/permission",
-        "version": "v1.0.5",
-        "version_normalized": "1.0.5.0",
+        "version": "v1.0.6",
+        "version_normalized": "1.0.6.0",
         "source": {
             "type": "git",
             "url": "https://github.com/douggonsouza/permission.git",
-            "reference": "298204cfd6faeef9d1342e1d47c7df86ea936a55"
+            "reference": "dcf7299cf453b729af4af304fbd1f2dc5dc93ff1"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/douggonsouza/permission/zipball/298204cfd6faeef9d1342e1d47c7df86ea936a55",
-            "reference": "298204cfd6faeef9d1342e1d47c7df86ea936a55",
+            "url": "https://api.github.com/repos/douggonsouza/permission/zipball/dcf7299cf453b729af4af304fbd1f2dc5dc93ff1",
+            "reference": "dcf7299cf453b729af4af304fbd1f2dc5dc93ff1",
             "shasum": ""
         },
-        "time": "2020-07-23T14:35:54+00:00",
+        "time": "2020-07-24T14:46:47+00:00",
         "type": "library",
         "installation-source": "source",
         "autoload": {
