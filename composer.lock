@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "douggonsouza/data",
-            "version": "v1.0.9",
+            "version": "v1.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/data.git",
-                "reference": "ca8ddfa38d6a85f2090275eaee36d7c6590cf204"
+                "reference": "0f13b9e67ffd396147e011910660aca3825d81f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/data/zipball/ca8ddfa38d6a85f2090275eaee36d7c6590cf204",
-                "reference": "ca8ddfa38d6a85f2090275eaee36d7c6590cf204",
+                "url": "https://api.github.com/repos/douggonsouza/data/zipball/0f13b9e67ffd396147e011910660aca3825d81f3",
+                "reference": "0f13b9e67ffd396147e011910660aca3825d81f3",
                 "shasum": ""
             },
             "type": "library",
@@ -37,20 +37,20 @@
                 }
             ],
             "description": "Módulo de modelo de dados",
-            "time": "2020-07-23T14:32:51+00:00"
+            "time": "2020-07-24T14:44:28+00:00"
         },
         {
             "name": "douggonsouza/driver",
-            "version": "v1.0.11",
+            "version": "v1.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/driver.git",
-                "reference": "3e1cc6348c7ddd361c99c1988b8b72f5c9c14170"
+                "reference": "a0e51f46eb76d58e524d2bca85f3e5b1ea9bda90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/driver/zipball/3e1cc6348c7ddd361c99c1988b8b72f5c9c14170",
-                "reference": "3e1cc6348c7ddd361c99c1988b8b72f5c9c14170",
+                "url": "https://api.github.com/repos/douggonsouza/driver/zipball/a0e51f46eb76d58e524d2bca85f3e5b1ea9bda90",
+                "reference": "a0e51f46eb76d58e524d2bca85f3e5b1ea9bda90",
                 "shasum": ""
             },
             "type": "library",
@@ -70,7 +70,7 @@
                 }
             ],
             "description": "Módulo de roteamento dos controladores",
-            "time": "2020-07-23T14:34:09+00:00"
+            "time": "2020-07-24T14:45:49+00:00"
         },
         {
             "name": "douggonsouza/permission",

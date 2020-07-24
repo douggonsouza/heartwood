@@ -17,6 +17,7 @@
     router::route('POST','/admin/permissions/profile',"permission\\admin\\controllers\\profileList");
     router::route('GET','/admin/permissions/profile/new',"permission\\admin\\controllers\\profile");
     router::route('GET','/admin/permissions/profile/:number',"permission\\admin\\controllers\\profileUpdate");
+    router::route('POST','/admin/permissions/profile/:number',"permission\\admin\\controllers\\profileUpdate");
 
     router::route('GET','/admin/permissions/action',"permission\\admin\\controllers\\actionList");
     router::route('GET','/admin/permissions/action/new',"permission\\admin\\controllers\\action");
