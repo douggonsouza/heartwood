@@ -1,20 +1,20 @@
 [
     {
         "name": "douggonsouza/data",
-        "version": "v1.0.10",
-        "version_normalized": "1.0.10.0",
+        "version": "v1.0.11",
+        "version_normalized": "1.0.11.0",
         "source": {
             "type": "git",
             "url": "https://github.com/douggonsouza/data.git",
-            "reference": "0f13b9e67ffd396147e011910660aca3825d81f3"
+            "reference": "8dbbe5c62e8cc2115a0872d283a43aa49f0fd81d"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/douggonsouza/data/zipball/0f13b9e67ffd396147e011910660aca3825d81f3",
-            "reference": "0f13b9e67ffd396147e011910660aca3825d81f3",
+            "url": "https://api.github.com/repos/douggonsouza/data/zipball/8dbbe5c62e8cc2115a0872d283a43aa49f0fd81d",
+            "reference": "8dbbe5c62e8cc2115a0872d283a43aa49f0fd81d",
             "shasum": ""
         },
-        "time": "2020-07-24T14:44:28+00:00",
+        "time": "2020-07-25T02:10:25+00:00",
         "type": "library",
         "installation-source": "source",
         "autoload": {
@@ -71,20 +71,20 @@
     },
     {
         "name": "douggonsouza/permission",
-        "version": "v1.0.6",
-        "version_normalized": "1.0.6.0",
+        "version": "v1.0.7",
+        "version_normalized": "1.0.7.0",
         "source": {
             "type": "git",
             "url": "https://github.com/douggonsouza/permission.git",
-            "reference": "dcf7299cf453b729af4af304fbd1f2dc5dc93ff1"
+            "reference": "14282f0168638f88eb2bc7aed5fa2a3c9fe043bd"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/douggonsouza/permission/zipball/dcf7299cf453b729af4af304fbd1f2dc5dc93ff1",
-            "reference": "dcf7299cf453b729af4af304fbd1f2dc5dc93ff1",
+            "url": "https://api.github.com/repos/douggonsouza/permission/zipball/14282f0168638f88eb2bc7aed5fa2a3c9fe043bd",
+            "reference": "14282f0168638f88eb2bc7aed5fa2a3c9fe043bd",
             "shasum": ""
         },
-        "time": "2020-07-24T14:46:47+00:00",
+        "time": "2020-07-25T02:16:07+00:00",
         "type": "library",
         "installation-source": "source",
         "autoload": {
