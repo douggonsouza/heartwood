@@ -74,16 +74,16 @@
         },
         {
             "name": "douggonsouza/permission",
-            "version": "v1.0.7",
+            "version": "v1.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/permission.git",
-                "reference": "14282f0168638f88eb2bc7aed5fa2a3c9fe043bd"
+                "reference": "81a3a64805ee19004072514978f20095ac442b21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/permission/zipball/14282f0168638f88eb2bc7aed5fa2a3c9fe043bd",
-                "reference": "14282f0168638f88eb2bc7aed5fa2a3c9fe043bd",
+                "url": "https://api.github.com/repos/douggonsouza/permission/zipball/81a3a64805ee19004072514978f20095ac442b21",
+                "reference": "81a3a64805ee19004072514978f20095ac442b21",
                 "shasum": ""
             },
             "type": "library",
@@ -103,7 +103,7 @@
                 }
             ],
             "description": "Módulo de permissionamento do usuário",
-            "time": "2020-07-25T02:16:07+00:00"
+            "time": "2020-07-25T16:36:34+00:00"
         },
         {
             "name": "graham-campbell/result-type",
