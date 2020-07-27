@@ -20,7 +20,7 @@ class users extends model
     }
 
     /**
-     * Informações das colunas visíveis
+     * Informaï¿½ï¿½es das colunas visï¿½veis
      *
      * @return void
      */
@@ -46,7 +46,7 @@ class users extends model
                     'type'  => 'varchar',
                 ),
                 'last_name' => array(
-                    'label' => 'Último nome',
+                    'label' => 'ï¿½ltimo nome',
                     'pk'    => false,
                     'type'  => 'varchar',
                 ),
@@ -67,16 +67,6 @@ class users extends model
                 ),
             ),
         );
-    } 
-
-    /**
-     * Cardinalidade com a tabela api_tokens
-     *
-     * @return object
-     */
-    public function apiTokens()
-    {
-        return $this->oneForMany(new apiTokens(), 'user_id');
     }
 }
 ?>

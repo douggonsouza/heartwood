@@ -1,20 +1,20 @@
 [
     {
         "name": "douggonsouza/data",
-        "version": "v1.0.11",
-        "version_normalized": "1.0.11.0",
+        "version": "v1.0.12",
+        "version_normalized": "1.0.12.0",
         "source": {
             "type": "git",
             "url": "https://github.com/douggonsouza/data.git",
-            "reference": "8dbbe5c62e8cc2115a0872d283a43aa49f0fd81d"
+            "reference": "931b7d66f997f6035a93f50765618e127f9339d3"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/douggonsouza/data/zipball/8dbbe5c62e8cc2115a0872d283a43aa49f0fd81d",
-            "reference": "8dbbe5c62e8cc2115a0872d283a43aa49f0fd81d",
+            "url": "https://api.github.com/repos/douggonsouza/data/zipball/931b7d66f997f6035a93f50765618e127f9339d3",
+            "reference": "931b7d66f997f6035a93f50765618e127f9339d3",
             "shasum": ""
         },
-        "time": "2020-07-25T02:10:25+00:00",
+        "time": "2020-07-27T17:41:27+00:00",
         "type": "library",
         "installation-source": "source",
         "autoload": {
@@ -71,20 +71,20 @@
     },
     {
         "name": "douggonsouza/permission",
-        "version": "v1.0.8",
-        "version_normalized": "1.0.8.0",
+        "version": "v1.0.9",
+        "version_normalized": "1.0.9.0",
         "source": {
             "type": "git",
             "url": "https://github.com/douggonsouza/permission.git",
-            "reference": "81a3a64805ee19004072514978f20095ac442b21"
+            "reference": "8ceb44eb733e1bdd8c97de658e09da1529461eed"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/douggonsouza/permission/zipball/81a3a64805ee19004072514978f20095ac442b21",
-            "reference": "81a3a64805ee19004072514978f20095ac442b21",
+            "url": "https://api.github.com/repos/douggonsouza/permission/zipball/8ceb44eb733e1bdd8c97de658e09da1529461eed",
+            "reference": "8ceb44eb733e1bdd8c97de658e09da1529461eed",
             "shasum": ""
         },
-        "time": "2020-07-25T16:36:34+00:00",
+        "time": "2020-07-27T17:36:22+00:00",
         "type": "library",
         "installation-source": "source",
         "autoload": {
