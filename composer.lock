@@ -41,16 +41,16 @@
         },
         {
             "name": "douggonsouza/driver",
-            "version": "v1.0.12",
+            "version": "v1.0.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/driver.git",
-                "reference": "a0e51f46eb76d58e524d2bca85f3e5b1ea9bda90"
+                "reference": "873f238258ece617c3bdcbeacc7341712f820d00"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/driver/zipball/a0e51f46eb76d58e524d2bca85f3e5b1ea9bda90",
-                "reference": "a0e51f46eb76d58e524d2bca85f3e5b1ea9bda90",
+                "url": "https://api.github.com/repos/douggonsouza/driver/zipball/873f238258ece617c3bdcbeacc7341712f820d00",
+                "reference": "873f238258ece617c3bdcbeacc7341712f820d00",
                 "shasum": ""
             },
             "type": "library",
@@ -70,20 +70,20 @@
                 }
             ],
             "description": "Módulo de roteamento dos controladores",
-            "time": "2020-07-24T14:45:49+00:00"
+            "time": "2020-07-28T15:15:07+00:00"
         },
         {
             "name": "douggonsouza/permission",
-            "version": "v1.0.9",
+            "version": "v1.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/permission.git",
-                "reference": "8ceb44eb733e1bdd8c97de658e09da1529461eed"
+                "reference": "1d793d75f10996e8865b695459ee27ce13852ae9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/permission/zipball/8ceb44eb733e1bdd8c97de658e09da1529461eed",
-                "reference": "8ceb44eb733e1bdd8c97de658e09da1529461eed",
+                "url": "https://api.github.com/repos/douggonsouza/permission/zipball/1d793d75f10996e8865b695459ee27ce13852ae9",
+                "reference": "1d793d75f10996e8865b695459ee27ce13852ae9",
                 "shasum": ""
             },
             "type": "library",
@@ -103,7 +103,7 @@
                 }
             ],
             "description": "Módulo de permissionamento do usuário",
-            "time": "2020-07-27T17:36:22+00:00"
+            "time": "2020-07-28T15:11:27+00:00"
         },
         {
             "name": "graham-campbell/result-type",
