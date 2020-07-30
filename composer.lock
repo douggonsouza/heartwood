@@ -4,20 +4,53 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "299f68c1fbf964c9d977b0b5584b411e",
+    "content-hash": "668bd84b5aaf611005a4f00632b0651c",
     "packages": [
         {
-            "name": "douggonsouza/data",
-            "version": "v1.0.12",
+            "name": "douggonsouza/alerts",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/douggonsouza/data.git",
-                "reference": "931b7d66f997f6035a93f50765618e127f9339d3"
+                "url": "https://github.com/douggonsouza/alerts.git",
+                "reference": "0619c021c46b28ecc7e7673104717e36409258e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/data/zipball/931b7d66f997f6035a93f50765618e127f9339d3",
-                "reference": "931b7d66f997f6035a93f50765618e127f9339d3",
+                "url": "https://api.github.com/repos/douggonsouza/alerts/zipball/0619c021c46b28ecc7e7673104717e36409258e7",
+                "reference": "0619c021c46b28ecc7e7673104717e36409258e7",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "alerts\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Douglas Gonçalves de Souza",
+                    "email": "douggonsouza@gmail.com"
+                }
+            ],
+            "description": "Módulo de alertas do framework Heartwood",
+            "time": "2020-07-30T13:37:15+00:00"
+        },
+        {
+            "name": "douggonsouza/data",
+            "version": "v1.0.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/douggonsouza/data.git",
+                "reference": "c557321fe33501a97365e469f4cb1f551fd34a5f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/douggonsouza/data/zipball/c557321fe33501a97365e469f4cb1f551fd34a5f",
+                "reference": "c557321fe33501a97365e469f4cb1f551fd34a5f",
                 "shasum": ""
             },
             "type": "library",
@@ -37,20 +70,20 @@
                 }
             ],
             "description": "Módulo de modelo de dados",
-            "time": "2020-07-27T17:41:27+00:00"
+            "time": "2020-07-30T13:39:29+00:00"
         },
         {
             "name": "douggonsouza/driver",
-            "version": "v1.0.13",
+            "version": "v1.0.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/driver.git",
-                "reference": "873f238258ece617c3bdcbeacc7341712f820d00"
+                "reference": "64d7560653ade7c33ff72567766f3dd6cc9717a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/driver/zipball/873f238258ece617c3bdcbeacc7341712f820d00",
-                "reference": "873f238258ece617c3bdcbeacc7341712f820d00",
+                "url": "https://api.github.com/repos/douggonsouza/driver/zipball/64d7560653ade7c33ff72567766f3dd6cc9717a0",
+                "reference": "64d7560653ade7c33ff72567766f3dd6cc9717a0",
                 "shasum": ""
             },
             "type": "library",
@@ -70,20 +103,20 @@
                 }
             ],
             "description": "Módulo de roteamento dos controladores",
-            "time": "2020-07-28T15:15:07+00:00"
+            "time": "2020-07-30T13:41:41+00:00"
         },
         {
             "name": "douggonsouza/permission",
-            "version": "v1.0.10",
+            "version": "v1.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/permission.git",
-                "reference": "1d793d75f10996e8865b695459ee27ce13852ae9"
+                "reference": "41dc8096fdb6ff721de25bc99ad9c174bdf4897b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/permission/zipball/1d793d75f10996e8865b695459ee27ce13852ae9",
-                "reference": "1d793d75f10996e8865b695459ee27ce13852ae9",
+                "url": "https://api.github.com/repos/douggonsouza/permission/zipball/41dc8096fdb6ff721de25bc99ad9c174bdf4897b",
+                "reference": "41dc8096fdb6ff721de25bc99ad9c174bdf4897b",
                 "shasum": ""
             },
             "type": "library",
@@ -103,7 +136,7 @@
                 }
             ],
             "description": "Módulo de permissionamento do usuário",
-            "time": "2020-07-28T15:11:27+00:00"
+            "time": "2020-07-30T13:42:55+00:00"
         },
         {
             "name": "graham-campbell/result-type",

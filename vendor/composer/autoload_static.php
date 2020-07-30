@@ -26,6 +26,10 @@ class ComposerStaticInit210a3b1822df82af31a5c768bc2b9e10
             'driver\\' => 7,
             'data\\' => 5,
         ),
+        'a' => 
+        array (
+            'alerts\\' => 7,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Php80\\' => 23,
@@ -62,6 +66,10 @@ class ComposerStaticInit210a3b1822df82af31a5c768bc2b9e10
         'data\\' => 
         array (
             0 => __DIR__ . '/..' . '/douggonsouza/data/src',
+        ),
+        'alerts\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/douggonsouza/alerts/src',
         ),
         'Symfony\\Polyfill\\Php80\\' => 
         array (
@@ -144,6 +152,7 @@ class ComposerStaticInit210a3b1822df82af31a5c768bc2b9e10
         'Symfony\\Polyfill\\Php80\\Php80' => __DIR__ . '/..' . '/symfony/polyfill-php80/Php80.php',
         'UnhandledMatchError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
         'ValueError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
+        'alerts\\alerts\\alerts' => __DIR__ . '/..' . '/douggonsouza/alerts/src/alerts/alerts.php',
         'data\\connection\\conn' => __DIR__ . '/..' . '/douggonsouza/data/src/connection/conn.php',
         'data\\model\\model' => __DIR__ . '/..' . '/douggonsouza/data/src/model/model.php',
         'data\\model\\modelInterface' => __DIR__ . '/..' . '/douggonsouza/data/src/model/modelInterface.php',
@@ -163,6 +172,7 @@ class ComposerStaticInit210a3b1822df82af31a5c768bc2b9e10
         'heartwood\\common\\layouts\\controllers\\breadcrumb' => __DIR__ . '/../..' . '/src/common/layouts/controllers/breadcrumb.php',
         'heartwood\\common\\layouts\\controllers\\header' => __DIR__ . '/../..' . '/src/common/layouts/controllers/header.php',
         'heartwood\\common\\layouts\\controllers\\headerDesktop' => __DIR__ . '/../..' . '/src/common/layouts/controllers/headerDesktop.php',
+        'heartwood\\common\\layouts\\controllers\\messages' => __DIR__ . '/../..' . '/src/common/layouts/controllers/messages.php',
         'heartwood\\common\\layouts\\controllers\\scripts' => __DIR__ . '/../..' . '/src/common/layouts/controllers/scripts.php',
         'heartwood\\common\\layouts\\controllers\\sidebar' => __DIR__ . '/../..' . '/src/common/layouts/controllers/sidebar.php',
         'heartwood\\common\\layouts\\controllers\\styles' => __DIR__ . '/../..' . '/src/common/layouts/controllers/styles.php',
