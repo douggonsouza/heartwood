@@ -1,10 +1,10 @@
 <?php
 
     // REGEX
-    // :number = somente números = (\d+)
-    // :char   = somente letras  = ([a-zA-Z]+)
-    // :alfanumeric = letras e números = ([a-zA-Z0-9]+)
-    // :string = letras, espaço e caracteres especiais = ([a-zA-Z0-9 .\-\_]+)
+    // :number = somente números
+    // :char   = somente letras
+    // :alfanumeric = letras e números
+    // :string = letras, espaço e caracteres especiais
 
     use driver\router\router;
 

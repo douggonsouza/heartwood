@@ -10,6 +10,7 @@ return array(
     'heartwood\\' => array($baseDir . '/src'),
     'driver\\' => array($vendorDir . '/douggonsouza/driver/src'),
     'data\\' => array($vendorDir . '/douggonsouza/data/src'),
+    'comunication\\' => array($vendorDir . '/douggonsouza/comunications/src'),
     'alerts\\' => array($vendorDir . '/douggonsouza/alerts/src'),
     'Symfony\\Polyfill\\Php80\\' => array($vendorDir . '/symfony/polyfill-php80'),
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),

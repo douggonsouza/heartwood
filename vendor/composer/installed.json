@@ -1,20 +1,20 @@
 [
     {
         "name": "douggonsouza/alerts",
-        "version": "v1.0.1",
-        "version_normalized": "1.0.1.0",
+        "version": "v1.0.2",
+        "version_normalized": "1.0.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/douggonsouza/alerts.git",
-            "reference": "0619c021c46b28ecc7e7673104717e36409258e7"
+            "reference": "896f84ff6b6b7789d7d13ae9e087609aabfd203f"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/douggonsouza/alerts/zipball/0619c021c46b28ecc7e7673104717e36409258e7",
-            "reference": "0619c021c46b28ecc7e7673104717e36409258e7",
+            "url": "https://api.github.com/repos/douggonsouza/alerts/zipball/896f84ff6b6b7789d7d13ae9e087609aabfd203f",
+            "reference": "896f84ff6b6b7789d7d13ae9e087609aabfd203f",
             "shasum": ""
         },
-        "time": "2020-07-30T13:37:15+00:00",
+        "time": "2020-07-31T23:31:28+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -33,6 +33,41 @@
             }
         ],
         "description": "Módulo de alertas do framework Heartwood"
+    },
+    {
+        "name": "douggonsouza/comunications",
+        "version": "v1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/douggonsouza/comunications.git",
+            "reference": "e9aa86f92ac9ae37382ffdc27d7c4ef9b13aa8cd"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/douggonsouza/comunications/zipball/e9aa86f92ac9ae37382ffdc27d7c4ef9b13aa8cd",
+            "reference": "e9aa86f92ac9ae37382ffdc27d7c4ef9b13aa8cd",
+            "shasum": ""
+        },
+        "time": "2020-07-31T23:11:36+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "comunication\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Douglas Gonçalves de Souza",
+                "email": "douggonsouza@gmail.com"
+            }
+        ],
+        "description": "Módulo de comunicação do framework Heartwood"
     },
     {
         "name": "douggonsouza/data",
@@ -71,20 +106,20 @@
     },
     {
         "name": "douggonsouza/driver",
-        "version": "v1.0.14",
-        "version_normalized": "1.0.14.0",
+        "version": "v1.0.15",
+        "version_normalized": "1.0.15.0",
         "source": {
             "type": "git",
             "url": "https://github.com/douggonsouza/driver.git",
-            "reference": "64d7560653ade7c33ff72567766f3dd6cc9717a0"
+            "reference": "106f54ffe489faca48d56736ebc852683bab9bb5"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/douggonsouza/driver/zipball/64d7560653ade7c33ff72567766f3dd6cc9717a0",
-            "reference": "64d7560653ade7c33ff72567766f3dd6cc9717a0",
+            "url": "https://api.github.com/repos/douggonsouza/driver/zipball/106f54ffe489faca48d56736ebc852683bab9bb5",
+            "reference": "106f54ffe489faca48d56736ebc852683bab9bb5",
             "shasum": ""
         },
-        "time": "2020-07-30T13:41:41+00:00",
+        "time": "2020-07-31T23:29:49+00:00",
         "type": "library",
         "installation-source": "source",
         "autoload": {
@@ -106,20 +141,20 @@
     },
     {
         "name": "douggonsouza/permission",
-        "version": "v1.0.11",
-        "version_normalized": "1.0.11.0",
+        "version": "v1.0.12",
+        "version_normalized": "1.0.12.0",
         "source": {
             "type": "git",
             "url": "https://github.com/douggonsouza/permission.git",
-            "reference": "41dc8096fdb6ff721de25bc99ad9c174bdf4897b"
+            "reference": "b2392d0391ce152cf3d426ca52a6f95701e9f7a4"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/douggonsouza/permission/zipball/41dc8096fdb6ff721de25bc99ad9c174bdf4897b",
-            "reference": "41dc8096fdb6ff721de25bc99ad9c174bdf4897b",
+            "url": "https://api.github.com/repos/douggonsouza/permission/zipball/b2392d0391ce152cf3d426ca52a6f95701e9f7a4",
+            "reference": "b2392d0391ce152cf3d426ca52a6f95701e9f7a4",
             "shasum": ""
         },
-        "time": "2020-07-30T13:42:55+00:00",
+        "time": "2020-07-31T23:28:49+00:00",
         "type": "library",
         "installation-source": "source",
         "autoload": {

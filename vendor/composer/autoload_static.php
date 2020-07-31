@@ -26,6 +26,10 @@ class ComposerStaticInit210a3b1822df82af31a5c768bc2b9e10
             'driver\\' => 7,
             'data\\' => 5,
         ),
+        'c' => 
+        array (
+            'comunication\\' => 13,
+        ),
         'a' => 
         array (
             'alerts\\' => 7,
@@ -66,6 +70,10 @@ class ComposerStaticInit210a3b1822df82af31a5c768bc2b9e10
         'data\\' => 
         array (
             0 => __DIR__ . '/..' . '/douggonsouza/data/src',
+        ),
+        'comunication\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/douggonsouza/comunications/src',
         ),
         'alerts\\' => 
         array (

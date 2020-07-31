@@ -65,20 +65,6 @@ abstract class alerts
     }
 
     /**
-     * Regista um alerta
-     *
-     * @param string  $mensagem
-     * @param string  $badge
-     * @return void
-     */
-    static final public function set(string $mensagem, string $badge = self::BADGE_SUCCESS)
-    {        
-        self::saveInSession(str_pad($mensagem,120), $badge);
-
-        return self;
-    }
-
-    /**
      * Expõe template para do alerta conforme o layout
      *
      * @return void
@@ -103,8 +89,21 @@ abstract class alerts
     }
 
     /**
+     * Regista um alerta
+     *
+     * @param string  $mensagem
+     * @param string  $badge
+     * @return void
+     */
+    static final public function set(string $mensagem, string $badge = self::BADGE_SUCCESS)
+    {
+        self::saveInSession(str_pad($mensagem,120), $badge);
+
+        return self;
+    }
+
+    /**
      * Retorna alerta definido
-     * 
      * @param bool $clear
      * 
      * @return mixed
@@ -112,16 +111,19 @@ abstract class alerts
     static final public function get(bool $clear = true)
     {
         $alerts = self::searchInSession();
-        
-        self::clear($clear);
 
         if(!isset($alerts) || empty($alerts)){
             return null;
         }
 
+        self::setClear($clear);
+        if(self::getClear()){
+            self::clear();
+        }
+
         $messages = null;
         foreach($alerts as $index => $items){
-            $msgs = implode(";</br>\n ",$items);
+            $msgs = implode("</br>\n ",$items);
             $messages .= self::template($msgs."\n", $index);
         }
 
@@ -130,11 +132,11 @@ abstract class alerts
 
     /**
      * Limpa a mensagem de alerta
+     * 
      *
-     * @param  boolean $clear
      * @return object
      */
-    static final public function clear(bool $clear = true)
+    static final public function clear()
     {
         self::setClear($clear);
         if(self::getClear()){
@@ -170,7 +172,9 @@ abstract class alerts
      */ 
     static public function setClear($clear)
     {
-        self::$clear = $clear;
+        if(isset($clear)){
+            self::$clear = $clear;
+        }
         return self;
     }
 
@@ -179,9 +183,7 @@ abstract class alerts
      */
     public function __destruct()
     {
-        if(self::getClear()){
-            $_SESSION['msgAlert'] = array();
-        }
+        self::clear();
     }
 }
 
