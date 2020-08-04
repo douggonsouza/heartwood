@@ -36,20 +36,20 @@
     },
     {
         "name": "douggonsouza/comunications",
-        "version": "v1.0.2",
-        "version_normalized": "1.0.2.0",
+        "version": "v1.0.3",
+        "version_normalized": "1.0.3.0",
         "source": {
             "type": "git",
             "url": "https://github.com/douggonsouza/comunications.git",
-            "reference": "404819190f9bda32678083938fea8fa1c8c87be9"
+            "reference": "9aed04c440a9b7d930491c73e5a84067b485926b"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/douggonsouza/comunications/zipball/404819190f9bda32678083938fea8fa1c8c87be9",
-            "reference": "404819190f9bda32678083938fea8fa1c8c87be9",
+            "url": "https://api.github.com/repos/douggonsouza/comunications/zipball/9aed04c440a9b7d930491c73e5a84067b485926b",
+            "reference": "9aed04c440a9b7d930491c73e5a84067b485926b",
             "shasum": ""
         },
-        "time": "2020-08-03T01:06:48+00:00",
+        "time": "2020-08-04T13:16:50+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -71,20 +71,20 @@
     },
     {
         "name": "douggonsouza/data",
-        "version": "v1.0.14",
-        "version_normalized": "1.0.14.0",
+        "version": "v1.0.16",
+        "version_normalized": "1.0.16.0",
         "source": {
             "type": "git",
             "url": "https://github.com/douggonsouza/data.git",
-            "reference": "1d4e0d9103bceb3b692bcfd755fd984407c36d98"
+            "reference": "dff9b9fcd30c2a547898aa6881cdc752b973c6ee"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/douggonsouza/data/zipball/1d4e0d9103bceb3b692bcfd755fd984407c36d98",
-            "reference": "1d4e0d9103bceb3b692bcfd755fd984407c36d98",
+            "url": "https://api.github.com/repos/douggonsouza/data/zipball/dff9b9fcd30c2a547898aa6881cdc752b973c6ee",
+            "reference": "dff9b9fcd30c2a547898aa6881cdc752b973c6ee",
             "shasum": ""
         },
-        "time": "2020-08-03T01:07:43+00:00",
+        "time": "2020-08-04T13:18:21+00:00",
         "type": "library",
         "installation-source": "source",
         "autoload": {
@@ -106,20 +106,20 @@
     },
     {
         "name": "douggonsouza/driver",
-        "version": "v1.0.16",
-        "version_normalized": "1.0.16.0",
+        "version": "v1.0.17",
+        "version_normalized": "1.0.17.0",
         "source": {
             "type": "git",
             "url": "https://github.com/douggonsouza/driver.git",
-            "reference": "d25b01e441c1d274036b3ff40eb40a389b3244d2"
+            "reference": "3f76a63515783c35c087b89a850892908cf45cfb"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/douggonsouza/driver/zipball/d25b01e441c1d274036b3ff40eb40a389b3244d2",
-            "reference": "d25b01e441c1d274036b3ff40eb40a389b3244d2",
+            "url": "https://api.github.com/repos/douggonsouza/driver/zipball/3f76a63515783c35c087b89a850892908cf45cfb",
+            "reference": "3f76a63515783c35c087b89a850892908cf45cfb",
             "shasum": ""
         },
-        "time": "2020-08-03T01:08:52+00:00",
+        "time": "2020-08-04T13:20:35+00:00",
         "type": "library",
         "installation-source": "source",
         "autoload": {

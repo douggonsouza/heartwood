@@ -9,7 +9,7 @@
         const _LOCAL = __DIR__;
 
         /**
-         * Função a ser executada no contexto da action
+         * FunÃ§Ã£o a ser executada no contexto da action
          *
          * @param array $info
          * @return void
@@ -17,7 +17,19 @@
         public function main(array $info)
         {
             self::setLayout(self::getHeartwoodLayouts().'/responses/headerDesktop.phtml');
-            return $this->view();
+
+            if(empty(new \comunication\common\models\comunications())){
+                return $this->view(array('isModule' => false));
+            }
+
+            // comments
+            $this->param('comments', (new \comunication\common\models\comunications())->comunicationByQuality(1, 1));
+            // e-mails
+            $this->param('emails', (new \comunication\common\models\comunications())->comunicationByQuality(2, 1));
+            // notifications
+            $this->param('notifications',(new \comunication\common\models\comunications())->comunicationByQuality(3, 1));
+
+            return $this->view(array('isModule' => true));
         }
 
         /**

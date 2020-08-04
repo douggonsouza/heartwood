@@ -10,7 +10,15 @@
                                 </button>
                             </form>
                             <div class="header-button">
+                                <?php
+                                    if($isModule){
+                                ?>
                                 <div class="noti-wrap">
+
+                                    <!-- comments -->
+                                    <?php
+                                        if(!$comments->isNew()){
+                                    ?>
                                     <div class="noti__item js-item-menu">
                                         <i class="zmdi zmdi-comment-more"></i>
                                         <span class="quantity">1</span>
@@ -43,6 +51,11 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <?php
+                                        }
+                                        if(!$emails->isNew()){
+                                    ?>
+                                    <!-- e-mails -->
                                     <div class="noti__item js-item-menu">
                                         <i class="zmdi zmdi-email"></i>
                                         <span class="quantity">1</span>
@@ -82,6 +95,11 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <?php
+                                        }
+                                        if(!$notifications->isNew()){
+                                    ?>
+                                    <!-- notifications -->
                                     <div class="noti__item js-item-menu">
                                         <i class="zmdi zmdi-notifications"></i>
                                         <span class="quantity">3</span>
@@ -121,7 +139,13 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <?php
+                                        }
+                                    ?>
                                 </div>
+                                <?php
+                                    }
+                                ?>
                                 <div class="account-wrap">
                                     <div class="account-item clearfix js-item-menu">
                                         <div class="image">

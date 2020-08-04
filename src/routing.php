@@ -53,6 +53,8 @@
     router::route('GET','/admin/permissions/areaDelete/:number',"permission\\admin\\controllers\\areaDelete");
     router::route('POST','/admin/permissions/areaDelete/:number',"permission\\admin\\controllers\\areaDelete");
 
+    // COMUNICAÇÕES
+
     // Comunications
     router::route('GET','/admin/comunications/comunication',"comunication\\admin\\controllers\\comunication");
     router::route('POST','/admin/comunications/comunication',"comunication\\admin\\controllers\\comunication");
@@ -62,6 +64,16 @@
     router::route('POST','/admin/comunications/comunication/:number',"comunication\\admin\\controllers\\comunicationUpdate");
     router::route('GET','/admin/comunications/comunicationDelete/:number',"comunication\\admin\\controllers\\comunicationDelete");
     router::route('POST','/admin/comunications/comunicationDelete/:number',"comunication\\admin\\controllers\\comunicationDelete");
+
+    // qualitys
+    router::route('GET','/admin/comunications/quality',"comunication\\admin\\controllers\\quality");
+    router::route('POST','/admin/comunications/quality',"comunication\\admin\\controllers\\quality");
+    router::route('GET','/admin/comunications/qualityNew',"comunication\\admin\\controllers\\qualityNew");
+    router::route('POST','/admin/comunications/qualityNew',"comunication\\admin\\controllers\\qualityNew");
+    router::route('GET','/admin/comunications/quality/:number',"comunication\\admin\\controllers\\qualityUpdate");
+    router::route('POST','/admin/comunications/quality/:number',"comunication\\admin\\controllers\\qualityUpdate");
+    router::route('GET','/admin/comunications/qualityDelete/:number',"comunication\\admin\\controllers\\qualityDelete");
+    router::route('POST','/admin/comunications/qualityDelete/:number',"comunication\\admin\\controllers\\qualityDelete");
 
     // ROTAS API
     router::route(
