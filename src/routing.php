@@ -91,6 +91,16 @@
     router::route('POST','/admin/accounts/login',"account\\admin\\controllers\\login");
     router::route('GET','/admin/accounts/logout',"account\\admin\\controllers\\logout");
 
+    // address
+    router::route('GET','/admin/accounts/address',"account\\admin\\controllers\\address");
+    router::route('POST','/admin/accounts/address',"account\\admin\\controllers\\address");
+    router::route('GET','/admin/accounts/addressNew',"account\\admin\\controllers\\addressNew");
+    router::route('POST','/admin/accounts/addressNew',"account\\admin\\controllers\\addressNew");
+    router::route('GET','/admin/accounts/address/:number',"account\\admin\\controllers\\addressUpdate");
+    router::route('POST','/admin/accounts/address/:number',"account\\admin\\controllers\\addressUpdate");
+    router::route('GET','/admin/accounts/addressDelete/:number',"account\\admin\\controllers\\addressDelete");
+    router::route('POST','/admin/accounts/addressDelete/:number',"account\\admin\\controllers\\addressDelete");
+
 
     // ROTAS API
     router::route(

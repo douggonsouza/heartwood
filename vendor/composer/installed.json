@@ -1,20 +1,20 @@
 [
     {
         "name": "douggonsouza/account",
-        "version": "v1.0.4",
-        "version_normalized": "1.0.4.0",
+        "version": "v1.0.5",
+        "version_normalized": "1.0.5.0",
         "source": {
             "type": "git",
             "url": "https://github.com/douggonsouza/account.git",
-            "reference": "944cbaa180de5acb9fc76ead9f7296f153a276c5"
+            "reference": "404e6fcc7c98ae71dbbbf8308af4bf9e6ae9e4ff"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/douggonsouza/account/zipball/944cbaa180de5acb9fc76ead9f7296f153a276c5",
-            "reference": "944cbaa180de5acb9fc76ead9f7296f153a276c5",
+            "url": "https://api.github.com/repos/douggonsouza/account/zipball/404e6fcc7c98ae71dbbbf8308af4bf9e6ae9e4ff",
+            "reference": "404e6fcc7c98ae71dbbbf8308af4bf9e6ae9e4ff",
             "shasum": ""
         },
-        "time": "2020-08-09T00:57:13+00:00",
+        "time": "2020-08-09T15:02:21+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
