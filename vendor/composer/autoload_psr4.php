@@ -12,6 +12,7 @@ return array(
     'data\\' => array($vendorDir . '/douggonsouza/data/src'),
     'comunication\\' => array($vendorDir . '/douggonsouza/comunications/src'),
     'alerts\\' => array($vendorDir . '/douggonsouza/alerts/src'),
+    'account\\' => array($vendorDir . '/douggonsouza/account/src'),
     'Symfony\\Polyfill\\Php80\\' => array($vendorDir . '/symfony/polyfill-php80'),
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
     'Symfony\\Polyfill\\Ctype\\' => array($vendorDir . '/symfony/polyfill-ctype'),

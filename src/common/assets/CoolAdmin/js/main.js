@@ -1671,3 +1671,17 @@
   }
 
 })(jQuery);
+(function ($) {
+  // USE STRICT
+  "use strict";
+  
+  // Chatbox
+  try {
+
+    $('#phone').mask('0000-00009');
+
+  } catch (error) {
+    console.log(error);
+  }
+
+})(jQuery);

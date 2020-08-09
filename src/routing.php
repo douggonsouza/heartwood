@@ -75,6 +75,23 @@
     router::route('GET','/admin/comunications/qualityDelete/:number',"comunication\\admin\\controllers\\qualityDelete");
     router::route('POST','/admin/comunications/qualityDelete/:number',"comunication\\admin\\controllers\\qualityDelete");
 
+    // ACCOUNTS
+
+    // accounts
+    router::route('GET','/admin/accounts/account',"account\\admin\\controllers\\account");
+    router::route('POST','/admin/accounts/account',"account\\admin\\controllers\\account");
+    router::route('GET','/admin/accounts/accountNew',"account\\admin\\controllers\\accountNew");
+    router::route('POST','/admin/accounts/accountNew',"account\\admin\\controllers\\accountNew");
+    router::route('GET','/admin/accounts/account/:number',"account\\admin\\controllers\\accountUpdate");
+    router::route('POST','/admin/accounts/account/:number',"account\\admin\\controllers\\accountUpdate");
+    router::route('GET','/admin/accounts/accountDelete/:number',"account\\admin\\controllers\\accountDelete");
+    router::route('POST','/admin/accounts/accountDelete/:number',"account\\admin\\controllers\\accounDelete");
+    router::route('GET','/admin/accounts/setting/:number',"account\\admin\\controllers\\setting");
+    router::route('GET','/admin/accounts/login',"account\\admin\\controllers\\login");
+    router::route('POST','/admin/accounts/login',"account\\admin\\controllers\\login");
+    router::route('GET','/admin/accounts/logout',"account\\admin\\controllers\\logout");
+
+
     // ROTAS API
     router::route(
         'GET',

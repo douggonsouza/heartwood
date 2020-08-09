@@ -33,6 +33,7 @@ class ComposerStaticInit210a3b1822df82af31a5c768bc2b9e10
         'a' => 
         array (
             'alerts\\' => 7,
+            'account\\' => 8,
         ),
         'S' => 
         array (
@@ -78,6 +79,10 @@ class ComposerStaticInit210a3b1822df82af31a5c768bc2b9e10
         'alerts\\' => 
         array (
             0 => __DIR__ . '/..' . '/douggonsouza/alerts/src',
+        ),
+        'account\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/douggonsouza/account/src',
         ),
         'Symfony\\Polyfill\\Php80\\' => 
         array (
@@ -160,15 +165,34 @@ class ComposerStaticInit210a3b1822df82af31a5c768bc2b9e10
         'Symfony\\Polyfill\\Php80\\Php80' => __DIR__ . '/..' . '/symfony/polyfill-php80/Php80.php',
         'UnhandledMatchError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
         'ValueError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
+        'account\\admin\\controllers\\account' => __DIR__ . '/..' . '/douggonsouza/account/src/admin/controllers/account.php',
+        'account\\admin\\controllers\\accountDelete' => __DIR__ . '/..' . '/douggonsouza/account/src/admin/controllers/accountDelete.php',
+        'account\\admin\\controllers\\accountNew' => __DIR__ . '/..' . '/douggonsouza/account/src/admin/controllers/accountNew.php',
+        'account\\admin\\controllers\\accountUpdate' => __DIR__ . '/..' . '/douggonsouza/account/src/admin/controllers/accountUpdate.php',
+        'account\\admin\\controllers\\address' => __DIR__ . '/..' . '/douggonsouza/account/src/admin/controllers/address.php',
+        'account\\admin\\controllers\\addressDelete' => __DIR__ . '/..' . '/douggonsouza/account/src/admin/controllers/addressDelete.php',
+        'account\\admin\\controllers\\addressNew' => __DIR__ . '/..' . '/douggonsouza/account/src/admin/controllers/addressNew.php',
+        'account\\admin\\controllers\\addressUpdate' => __DIR__ . '/..' . '/douggonsouza/account/src/admin/controllers/addressUpdate.php',
+        'account\\admin\\controllers\\headerAccount' => __DIR__ . '/..' . '/douggonsouza/account/src/admin/controllers/headerAccount.php',
+        'account\\admin\\controllers\\headerDesktopAccount' => __DIR__ . '/..' . '/douggonsouza/account/src/admin/controllers/headerDesktopAccount.php',
+        'account\\admin\\controllers\\login' => __DIR__ . '/..' . '/douggonsouza/account/src/admin/controllers/login.php',
+        'account\\admin\\controllers\\logout' => __DIR__ . '/..' . '/douggonsouza/account/src/admin/controllers/logout.php',
+        'account\\admin\\controllers\\setting' => __DIR__ . '/..' . '/douggonsouza/account/src/admin/controllers/setting.php',
+        'account\\common\\managments\\upload' => __DIR__ . '/..' . '/douggonsouza/account/src/common/managments/upload.php',
+        'account\\common\\models\\addresses' => __DIR__ . '/..' . '/douggonsouza/account/src/common/models/addresses.php',
+        'account\\common\\models\\users' => __DIR__ . '/..' . '/douggonsouza/account/src/common/models/users.php',
         'alerts\\alerts\\alerts' => __DIR__ . '/..' . '/douggonsouza/alerts/src/alerts/alerts.php',
         'comunication\\admin\\controllers\\comunication' => __DIR__ . '/..' . '/douggonsouza/comunications/src/admin/controllers/comunication.php',
         'comunication\\admin\\controllers\\comunicationDelete' => __DIR__ . '/..' . '/douggonsouza/comunications/src/admin/controllers/comunicationDelete.php',
         'comunication\\admin\\controllers\\comunicationNew' => __DIR__ . '/..' . '/douggonsouza/comunications/src/admin/controllers/comunicationNew.php',
         'comunication\\admin\\controllers\\comunicationUpdate' => __DIR__ . '/..' . '/douggonsouza/comunications/src/admin/controllers/comunicationUpdate.php',
+        'comunication\\admin\\controllers\\headerComunications' => __DIR__ . '/..' . '/douggonsouza/comunications/src/admin/controllers/headerComunications.php',
+        'comunication\\admin\\controllers\\headerNotifications' => __DIR__ . '/..' . '/douggonsouza/comunications/src/admin/controllers/headerNotifications.php',
         'comunication\\admin\\controllers\\quality' => __DIR__ . '/..' . '/douggonsouza/comunications/src/admin/controllers/quality.php',
         'comunication\\admin\\controllers\\qualityDelete' => __DIR__ . '/..' . '/douggonsouza/comunications/src/admin/controllers/qualityDelete.php',
         'comunication\\admin\\controllers\\qualityNew' => __DIR__ . '/..' . '/douggonsouza/comunications/src/admin/controllers/qualityNew.php',
         'comunication\\admin\\controllers\\qualityUpdate' => __DIR__ . '/..' . '/douggonsouza/comunications/src/admin/controllers/qualityUpdate.php',
+        'comunication\\common\\managments\\date' => __DIR__ . '/..' . '/douggonsouza/comunications/src/common/managments/date.php',
         'comunication\\common\\models\\comunications' => __DIR__ . '/..' . '/douggonsouza/comunications/src/common/models/comunications.php',
         'comunication\\common\\models\\groups' => __DIR__ . '/..' . '/douggonsouza/comunications/src/common/models/groups.php',
         'comunication\\common\\models\\qualitys' => __DIR__ . '/..' . '/douggonsouza/comunications/src/common/models/qualitys.php',

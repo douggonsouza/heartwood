@@ -16,7 +16,8 @@
         "douggonsouza/permission": "^v1.0.0",
         "douggonsouza/alerts": "^v1.0.0",
         "vlucas/phpdotenv": "^5.0@dev",
-        "douggonsouza/comunications": "^1.0.0"
+        "douggonsouza/comunications": "^1.0.0",
+        "douggonsouza/account": "^1.0.0"
     },
     "autoload": {
         "psr-4": {

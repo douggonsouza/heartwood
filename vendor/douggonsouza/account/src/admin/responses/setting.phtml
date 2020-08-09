@@ -1,0 +1,125 @@
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <strong>Usuário</strong>
+                        </div>
+                        <div class="card-body card-block">
+
+                                <div class="row form-group">
+                                    <div class="col col-md-3">
+                                        <label for="name" class=" form-control-label">Nome</label>
+                                    </div>
+                                    <div class="col-12 col-md-9">
+                                        <p class="form-control-static"><?= $user->getField('name'); ?></p>
+                                    </div>
+                                </div>
+
+                                <div class="row form-group">
+                                    <div class="col col-md-3">
+                                        <label for="profile_id" class=" form-control-label">Perfil</label>
+                                    </div>
+                                    <div class="col-12 col-md-9">
+                                        <p class="form-control-static"><?= $user->profile()->getField('label'); ?></p>
+                                    </div>
+                                </div>
+
+                                <div class="row form-group">
+                                    <div class="col col-md-3">
+                                        <label for="email" class=" form-control-label">E-mail</label>
+                                    </div>
+                                    <div class="col-12 col-md-9">
+                                        <p class="form-control-static"><?= $user->getField('email'); ?></p>
+                                    </div>
+                                </div>
+
+                                <div class="row form-group">
+                                    <div class="col col-md-3">
+                                        <label for="birth" class=" form-control-label">Nascimento</label>
+                                    </div>
+                                    <div class="col-12 col-md-9">
+                                        <p class="form-control-static"><?= date('d-m-Y', strtotime($user->getField('birth'))); ?></p>
+                                    </div>
+                                </div>
+
+                                <div class="row form-group">
+                                    <div class="col col-md-3">
+                                        <label for="document" class=" form-control-label">Documento</label>
+                                    </div>
+                                    <div class="col-12 col-md-9">
+                                        <p class="form-control-static"><?= $user->getField('document'); ?></p>
+                                    </div>
+                                </div>
+
+                                <div class="row form-group">
+                                    <div class="col col-md-3">
+                                        <label for="ddd" class=" form-control-label">DDD</label>
+                                    </div>
+                                    <div class="col-12 col-md-9">
+                                        <p class="form-control-static"><?= $user->getField('ddd'); ?></p>
+                                    </div>
+                                </div>
+
+                                <div class="row form-group">
+                                    <div class="col col-md-3">
+                                        <label for="phone" class=" form-control-label">Fone</label>
+                                    </div>
+                                    <div class="col-12 col-md-9">
+                                        <p class="form-control-static"><?= $user->getField('phone'); ?></p>
+                                    </div>
+                                </div>
+
+                                <div class="row form-group">
+                                    <div class="col col-md-3">
+                                        <label for="image" class=" form-control-label">Foto</label>
+                                    </div>
+                                    <div class="col-12 col-md-9">
+                                        <img src="<?= _upload.$user->getField('image'); ?>" width="75" height="100">
+                                    </div>
+                                </div>
+
+                                <div class="card-footer">
+                                    <a target="_blank" href="<?= _root ?>/admin/accounts/account/<?= $user->getField('user_id'); ?>" class="btn btn-sm btn-primary">Editar</a>
+                                </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <strong>Senha</strong>
+                        </div>
+                        <a target="_blank" href="<?= _root ?>/admin/accounts/password/<?= $user->getField('user_id'); ?>" class="btn btn-sm btn-primary">Alterar</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <strong>Token</strong>
+                    </div>
+                    <div class="card-body card-block">
+                        
+                        <div class="row form-group">
+                            <div class="col col-md-3">
+                                <label for="token" class=" form-control-label">Token</label>
+                            </div>
+                            <div class="col-12 col-md-9">
+                                <p class="form-control-static"><?= $user->getField('token'); ?></p>
+                            </div>
+                        </div>
+                        
+                        <div class="card-footer">
+                            <a target="_blank" href="<?= _root ?>/admin/accounts/token/<?= $user->getField('user_id'); ?>" class="btn btn-sm btn-primary">Editar</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="copyright">
+                        <p>Copyright © 2020 DOUGGS. All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>

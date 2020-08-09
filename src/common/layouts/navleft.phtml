@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="au theme template">
+    <meta name="author" content="Hau Nguyen">
+    <meta name="keywords" content="au theme template">
+
+    <!-- Title Page-->
+    <title>DOUGGS</title>
+
+    <!-- STYLES START -->
+
+    <?php $this->partial("heartwood\\common\\layouts\\controllers\\styles"); ?>
+
+    <!-- STYLES END -->
+
+</head>
+
+<body class="animsition">
+    <div class="page-wrapper">
+
+    <!-- SIDEBAR START -->
+
+    <?php $this->partial("heartwood\\common\\layouts\\controllers\\sidebar"); ?>
+
+    <!-- SIDEBAR END -->
+
+        <!-- PAGE CONTAINER-->
+        <div class="page-container">
+
+        <!-- SIDEBAR START -->
+
+        <?php $this->partial("heartwood\\common\\layouts\\controllers\\headerDesktop"); ?>
+
+        <!-- SIDEBAR END -->
+
+            <!-- MAIN CONTENT-->
+            <div class="main-content">
+                <div class="section__content section__content--p30">
+
+                    <!-- ALERTS START -->
+
+                        <?php $this->partial("heartwood\\common\\layouts\\controllers\\messages"); ?>
+
+                    <!-- ALERTS END -->
+
+                    <!-- Start Status area -->
+
+                    <?php $this->content(); ?>
+
+                    <!-- End Status area-->
+
+                </div>
+            </div>
+            <!-- END MAIN CONTENT-->
+            <!-- END PAGE CONTAINER-->
+        </div>
+
+    </div>
+
+    <!-- SCRIPTS START -->
+
+    <?php $this->partial("heartwood\\common\\layouts\\controllers\\scripts"); ?>
+
+    <!-- SCRIPTS END -->
+
+</body>
+
+</html>
+<!-- end document-->

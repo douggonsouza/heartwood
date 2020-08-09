@@ -18,18 +18,7 @@
         {
             self::setLayout(self::getHeartwoodLayouts().'/responses/headerDesktop.phtml');
 
-            if(empty(new \comunication\common\models\comunications())){
-                return $this->view(array('isModule' => false));
-            }
-
-            // comments
-            $this->param('comments', (new \comunication\common\models\comunications())->comunicationByQuality(1, 1));
-            // e-mails
-            $this->param('emails', (new \comunication\common\models\comunications())->comunicationByQuality(2, 1));
-            // notifications
-            $this->param('notifications',(new \comunication\common\models\comunications())->comunicationByQuality(3, 1));
-
-            return $this->view(array('isModule' => true));
+            return $this->view();
         }
 
         /**
