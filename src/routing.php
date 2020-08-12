@@ -13,6 +13,8 @@
     // ROTAS ADMIN
     router::route('GET','/',"heartwood\\admin\\controllers\\dashboard");
 
+    // PERMISSÔES
+
     // Profiles
     router::route('GET','/admin/permissions/profile',"permission\\admin\\controllers\\profile");
     router::route('POST','/admin/permissions/profile',"permission\\admin\\controllers\\profile");
@@ -52,6 +54,16 @@
     router::route('POST','/admin/permissions/area/:number',"permission\\admin\\controllers\\areaUpdate");
     router::route('GET','/admin/permissions/areaDelete/:number',"permission\\admin\\controllers\\areaDelete");
     router::route('POST','/admin/permissions/areaDelete/:number',"permission\\admin\\controllers\\areaDelete");
+
+    // Menus
+    router::route('GET','/admin/permissions/menu',"permission\\admin\\controllers\\menu");
+    router::route('POST','/admin/permissions/menu',"permission\\admin\\controllers\\menu");
+    router::route('GET','/admin/permissions/menuNew',"permission\\admin\\controllers\\menuNew");
+    router::route('POST','/admin/permissions/menuNew',"permission\\admin\\controllers\\menuNew");
+    router::route('GET','/admin/permissions/menu/:number',"permission\\admin\\controllers\\menuUpdate");
+    router::route('POST','/admin/permissions/menu/:number',"permission\\admin\\controllers\\menuUpdate");
+    router::route('GET','/admin/permissions/menuDelete/:number',"permission\\admin\\controllers\\menuDelete");
+    router::route('POST','/admin/permissions/menuDelete/:number',"permission\\admin\\controllers\\menuDelete");
 
     // COMUNICAÇÕES
 

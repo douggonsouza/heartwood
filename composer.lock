@@ -74,16 +74,16 @@
         },
         {
             "name": "douggonsouza/comunications",
-            "version": "v1.0.5",
+            "version": "v1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/comunications.git",
-                "reference": "161879e41b87a2a0f5c7fd823a4bc6b582bae12a"
+                "reference": "a7f4e4348a0a784088b025147845de12d88f7868"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/comunications/zipball/161879e41b87a2a0f5c7fd823a4bc6b582bae12a",
-                "reference": "161879e41b87a2a0f5c7fd823a4bc6b582bae12a",
+                "url": "https://api.github.com/repos/douggonsouza/comunications/zipball/a7f4e4348a0a784088b025147845de12d88f7868",
+                "reference": "a7f4e4348a0a784088b025147845de12d88f7868",
                 "shasum": ""
             },
             "type": "library",
@@ -103,7 +103,7 @@
                 }
             ],
             "description": "Módulo de comunicação do framework Heartwood",
-            "time": "2020-08-07T13:17:58+00:00"
+            "time": "2020-08-12T12:01:05+00:00"
         },
         {
             "name": "douggonsouza/data",
@@ -140,16 +140,16 @@
         },
         {
             "name": "douggonsouza/driver",
-            "version": "v1.0.19",
+            "version": "v1.0.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/driver.git",
-                "reference": "ce3cbae40bfb4bd5c8a432a99635cf6502776c76"
+                "reference": "3d168ba46ccf5ca80940dfa7d944b029fd4c46f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/driver/zipball/ce3cbae40bfb4bd5c8a432a99635cf6502776c76",
-                "reference": "ce3cbae40bfb4bd5c8a432a99635cf6502776c76",
+                "url": "https://api.github.com/repos/douggonsouza/driver/zipball/3d168ba46ccf5ca80940dfa7d944b029fd4c46f6",
+                "reference": "3d168ba46ccf5ca80940dfa7d944b029fd4c46f6",
                 "shasum": ""
             },
             "type": "library",
@@ -169,20 +169,20 @@
                 }
             ],
             "description": "Módulo de roteamento dos controladores",
-            "time": "2020-08-08T22:41:32+00:00"
+            "time": "2020-08-12T17:54:01+00:00"
         },
         {
             "name": "douggonsouza/permission",
-            "version": "v1.0.14",
+            "version": "v1.0.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/permission.git",
-                "reference": "668beba07e92c5a9ff618cd4145c069bddba6791"
+                "reference": "bb9adc1a0b3c1672db4d2bb71819af92d0914c1a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/permission/zipball/668beba07e92c5a9ff618cd4145c069bddba6791",
-                "reference": "668beba07e92c5a9ff618cd4145c069bddba6791",
+                "url": "https://api.github.com/repos/douggonsouza/permission/zipball/bb9adc1a0b3c1672db4d2bb71819af92d0914c1a",
+                "reference": "bb9adc1a0b3c1672db4d2bb71819af92d0914c1a",
                 "shasum": ""
             },
             "type": "library",
@@ -202,7 +202,7 @@
                 }
             ],
             "description": "Módulo de permissionamento do usuário",
-            "time": "2020-08-07T13:22:21+00:00"
+            "time": "2020-08-12T17:52:55+00:00"
         },
         {
             "name": "graham-campbell/result-type",
