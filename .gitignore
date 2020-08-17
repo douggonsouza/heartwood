@@ -1,7 +1,7 @@
 # folders
 /dev/
+/vendor/
 /.vscode/
 
 #files
 *.code-workspace
-/.env
