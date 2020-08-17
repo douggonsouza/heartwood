@@ -1,20 +1,20 @@
 [
     {
         "name": "douggonsouza/account",
-        "version": "v1.0.5",
-        "version_normalized": "1.0.5.0",
+        "version": "v1.0.6",
+        "version_normalized": "1.0.6.0",
         "source": {
             "type": "git",
             "url": "https://github.com/douggonsouza/account.git",
-            "reference": "404e6fcc7c98ae71dbbbf8308af4bf9e6ae9e4ff"
+            "reference": "bef6270f75d785f7d680f393ed17f990922e699b"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/douggonsouza/account/zipball/404e6fcc7c98ae71dbbbf8308af4bf9e6ae9e4ff",
-            "reference": "404e6fcc7c98ae71dbbbf8308af4bf9e6ae9e4ff",
+            "url": "https://api.github.com/repos/douggonsouza/account/zipball/bef6270f75d785f7d680f393ed17f990922e699b",
+            "reference": "bef6270f75d785f7d680f393ed17f990922e699b",
             "shasum": ""
         },
-        "time": "2020-08-09T15:02:21+00:00",
+        "time": "2020-08-17T12:35:52+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -71,20 +71,20 @@
     },
     {
         "name": "douggonsouza/comunications",
-        "version": "v1.0.6",
-        "version_normalized": "1.0.6.0",
+        "version": "v1.0.7",
+        "version_normalized": "1.0.7.0",
         "source": {
             "type": "git",
             "url": "https://github.com/douggonsouza/comunications.git",
-            "reference": "a7f4e4348a0a784088b025147845de12d88f7868"
+            "reference": "f37a78e514a2d8b1bc58780026d9ad7d9d1c9761"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/douggonsouza/comunications/zipball/a7f4e4348a0a784088b025147845de12d88f7868",
-            "reference": "a7f4e4348a0a784088b025147845de12d88f7868",
+            "url": "https://api.github.com/repos/douggonsouza/comunications/zipball/f37a78e514a2d8b1bc58780026d9ad7d9d1c9761",
+            "reference": "f37a78e514a2d8b1bc58780026d9ad7d9d1c9761",
             "shasum": ""
         },
-        "time": "2020-08-12T12:01:05+00:00",
+        "time": "2020-08-17T12:36:57+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -176,20 +176,20 @@
     },
     {
         "name": "douggonsouza/permission",
-        "version": "v1.0.17",
-        "version_normalized": "1.0.17.0",
+        "version": "v1.0.18",
+        "version_normalized": "1.0.18.0",
         "source": {
             "type": "git",
             "url": "https://github.com/douggonsouza/permission.git",
-            "reference": "bb9adc1a0b3c1672db4d2bb71819af92d0914c1a"
+            "reference": "c1da5345dfaa62df9eb5d06df57ba0f7b6fb894d"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/douggonsouza/permission/zipball/bb9adc1a0b3c1672db4d2bb71819af92d0914c1a",
-            "reference": "bb9adc1a0b3c1672db4d2bb71819af92d0914c1a",
+            "url": "https://api.github.com/repos/douggonsouza/permission/zipball/c1da5345dfaa62df9eb5d06df57ba0f7b6fb894d",
+            "reference": "c1da5345dfaa62df9eb5d06df57ba0f7b6fb894d",
             "shasum": ""
         },
-        "time": "2020-08-12T17:52:55+00:00",
+        "time": "2020-08-17T12:38:11+00:00",
         "type": "library",
         "installation-source": "source",
         "autoload": {
