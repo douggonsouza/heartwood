@@ -2,14 +2,14 @@
 
     namespace heartwood\admin\controllers;
 
-    use driver\control\action;
+    use heartwood\admin\controllers\heartwood;
 
-    class dashboard extends action
+    class dashboard extends heartwood
     {
         const _LOCAL = __DIR__;
 
         /**
-         * Função a ser executada no contexto da action
+         * Funï¿½ï¿½o a ser executada no contexto da action
          *
          * @param array $info
          * @return void
@@ -18,26 +18,6 @@
         {
             self::setLayout(self::getHeartwoodLayouts().'/cooladmin1.phtml');
             return $this->view();
-        }
-
-        /**
-         * Para ser disparado antes
-         *
-         * @return void
-         */
-        public function _before()
-        {
-
-        }
-
-        /**
-         * Para ser disparado depois
-         *
-         * @return void
-         */
-        public function _after()
-        {
-
         }
     }
 

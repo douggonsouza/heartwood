@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "douggonsouza/account",
-            "version": "v1.0.6",
+            "version": "v1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/account.git",
-                "reference": "bef6270f75d785f7d680f393ed17f990922e699b"
+                "reference": "7d783db07d67eac0e0859b7bdf4b6f13a60a622a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/account/zipball/bef6270f75d785f7d680f393ed17f990922e699b",
-                "reference": "bef6270f75d785f7d680f393ed17f990922e699b",
+                "url": "https://api.github.com/repos/douggonsouza/account/zipball/7d783db07d67eac0e0859b7bdf4b6f13a60a622a",
+                "reference": "7d783db07d67eac0e0859b7bdf4b6f13a60a622a",
                 "shasum": ""
             },
             "type": "library",
@@ -37,7 +37,7 @@
                 }
             ],
             "description": "Módulo da conta do usuário para o framework Heartwood",
-            "time": "2020-08-17T12:35:52+00:00"
+            "time": "2020-08-20T14:28:07+00:00"
         },
         {
             "name": "douggonsouza/alerts",
@@ -74,16 +74,16 @@
         },
         {
             "name": "douggonsouza/comunications",
-            "version": "v1.0.7",
+            "version": "v1.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/comunications.git",
-                "reference": "f37a78e514a2d8b1bc58780026d9ad7d9d1c9761"
+                "reference": "9a38033a27884d0aa57ebaa705ea7a3d752160c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/comunications/zipball/f37a78e514a2d8b1bc58780026d9ad7d9d1c9761",
-                "reference": "f37a78e514a2d8b1bc58780026d9ad7d9d1c9761",
+                "url": "https://api.github.com/repos/douggonsouza/comunications/zipball/9a38033a27884d0aa57ebaa705ea7a3d752160c0",
+                "reference": "9a38033a27884d0aa57ebaa705ea7a3d752160c0",
                 "shasum": ""
             },
             "type": "library",
@@ -103,7 +103,7 @@
                 }
             ],
             "description": "Módulo de comunicação do framework Heartwood",
-            "time": "2020-08-17T12:36:57+00:00"
+            "time": "2020-08-20T13:12:06+00:00"
         },
         {
             "name": "douggonsouza/data",
@@ -173,16 +173,16 @@
         },
         {
             "name": "douggonsouza/permission",
-            "version": "v1.0.18",
+            "version": "v1.0.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/permission.git",
-                "reference": "c1da5345dfaa62df9eb5d06df57ba0f7b6fb894d"
+                "reference": "2d2f3e5765556fce2b8457da525a9b4959f38e5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/permission/zipball/c1da5345dfaa62df9eb5d06df57ba0f7b6fb894d",
-                "reference": "c1da5345dfaa62df9eb5d06df57ba0f7b6fb894d",
+                "url": "https://api.github.com/repos/douggonsouza/permission/zipball/2d2f3e5765556fce2b8457da525a9b4959f38e5e",
+                "reference": "2d2f3e5765556fce2b8457da525a9b4959f38e5e",
                 "shasum": ""
             },
             "type": "library",
@@ -202,7 +202,7 @@
                 }
             ],
             "description": "Módulo de permissionamento do usuário",
-            "time": "2020-08-17T12:38:11+00:00"
+            "time": "2020-08-20T13:12:43+00:00"
         },
         {
             "name": "graham-campbell/result-type",

@@ -28,13 +28,27 @@
             <?php $this->partial("heartwood\\common\\layouts\\controllers\\messages"); ?>
 
         <!-- ALERTS END -->
-
-        <!-- Start Status area -->
         
-        <?php $this->content(); ?>
-        
-        <!-- End Status area-->
+        <div class="page-content--bge5">
+            <div class="container">
+                <div class="login-wrap">
+                    <div class="login-content">
+                        <div class="login-logo">
+                            <a href="#">
+                                <img src="<?= _assets ?>/CoolAdmin/images/icon/logomarca_douggs.png" alt="DOUGGS">
+                            </a>
+                        </div>
 
+                        <!-- Start Status area -->
+        
+                        <?php $this->content(); ?>
+                        
+                        <!-- End Status area-->
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- SCRIPTS START -->

@@ -2,16 +2,16 @@
 
     namespace heartwood\admin\controllers;
 
-    use driver\control\action;
+    use heartwood\admin\controllers\heartwood;
     use data\resource\resource;
     use heartwood\common\models\users;
 
-    class productsUpdate extends action
+    class productsUpdate extends heartwood
     {
         const _LOCAL = __DIR__;
 
         /**
-         * Função a ser executada no contexto da action
+         * Funï¿½ï¿½o a ser executada no contexto da action
          *
          * @param array $info
          * @return void
@@ -20,26 +20,6 @@
         {
             $params = $info['url'];
             return $this->view($params);
-        }
-
-        /**
-         * Para ser disparado antes
-         *
-         * @return void
-         */
-        public function _before()
-        {
-
-        }
-
-        /**
-         * Para ser disparado depois
-         *
-         * @return void
-         */
-        public function _after()
-        {
-
         }
     }
 
