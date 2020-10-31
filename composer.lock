@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d2b0342f608189333eb084754c68d43e",
+    "content-hash": "11fa1656492246ab37be38edf1ab8d7e",
     "packages": [
         {
             "name": "douggonsouza/account",
@@ -172,6 +172,42 @@
             "time": "2020-08-12T17:54:01+00:00"
         },
         {
+            "name": "douggonsouza/payments",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/douggonsouza/payments.git",
+                "reference": "8285279c075df92b9ec4610b95d28498276f8350"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/douggonsouza/payments/zipball/8285279c075df92b9ec4610b95d28498276f8350",
+                "reference": "8285279c075df92b9ec4610b95d28498276f8350",
+                "shasum": ""
+            },
+            "require": {
+                "pagseguro/pagseguro-php-sdk": "^6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "payments\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause License"
+            ],
+            "authors": [
+                {
+                    "name": "Douglas Gonçalves de Souza",
+                    "email": "douggonsouza@gmail.com"
+                }
+            ],
+            "description": "Etapas de compra com o meio de pagamento",
+            "time": "2020-10-30T13:28:20+00:00"
+        },
+        {
             "name": "douggonsouza/permission",
             "version": "v1.0.19",
             "source": {
@@ -331,6 +367,47 @@
                 }
             ],
             "time": "2020-06-15T12:19:47+00:00"
+        },
+        {
+            "name": "pagseguro/pagseguro-php-sdk",
+            "version": "6.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pagseguro/pagseguro-php-sdk.git",
+                "reference": "de63ce3d582ba5727c42d8d4e67030da9439bff6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pagseguro/pagseguro-php-sdk/zipball/de63ce3d582ba5727c42d8d4e67030da9439bff6",
+                "reference": "de63ce3d582ba5727c42d8d4e67030da9439bff6",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "lib-curl": "*",
+                "lib-openssl": "*",
+                "php": "^7.1.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PagSeguro\\": "source/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "PagSeguro"
+                }
+            ],
+            "description": "Biblioteca de integração com o PagSeguro",
+            "time": "2018-12-11T11:37:37+00:00"
         },
         {
             "name": "phpoption/phpoption",
